@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Super Compution interface, includes Getter and Observer.
  * 
  * <p>
- * <strong>NOT</strong> includes Setter.<br />
+ * <strong>NOT</strong> includes Setter.
  * </p>
  * 
  * @author kenta-shimizu

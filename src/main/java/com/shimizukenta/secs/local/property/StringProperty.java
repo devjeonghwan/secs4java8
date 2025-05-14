@@ -6,7 +6,7 @@ import com.shimizukenta.secs.local.property.impl.AbstractStringProperty;
  * String value Property, includes Getter, Setter, Observer.
  * 
  * <p>
- * This interface deny null inputs. If input null, replace to empty string.<br />
+ * This interface deny null inputs. If input null, replace to empty string.
  * </p>
  * <ul>
  * <li>To build instance, {@link #newInstance()}</li>

@@ -6,7 +6,7 @@ import java.util.Optional;
  * This Exception is super class of SECS-Communicating Exception.
  * 
  * <p>
- * To get Reference-Message if exist, {@link #secsMessage()}<br />
+ * To get Reference-Message if exist, {@link #secsMessage()}
  * </p>
  * 
  * @author kenta-shimzu

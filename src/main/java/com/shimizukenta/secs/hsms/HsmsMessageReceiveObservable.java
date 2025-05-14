@@ -14,7 +14,7 @@ public interface HsmsMessageReceiveObservable extends SecsMessageReceiveObservab
 	 * Add Listener to receive Primary-Message.
 	 * 
 	 * <p>
-	 * This Listener not receive Reply-Message.<br />
+	 * This Listener not receive Reply-Message.
 	 * </p>
 	 * 
 	 * @param listener Not accept {@code null}
@@ -34,7 +34,7 @@ public interface HsmsMessageReceiveObservable extends SecsMessageReceiveObservab
 	 * Add Listener to receive Primary-Message.
 	 * 
 	 * <p>
-	 * This Listener not receive Reply-Message.<br />
+	 * This Listener not receive Reply-Message.
 	 * </p>
 	 * 
 	 * @param biListener Not accept {@code null}

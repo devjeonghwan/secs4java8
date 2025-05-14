@@ -9,7 +9,7 @@ import com.shimizukenta.secs.local.property.impl.BooleanUtils;
  * Logical Boolean compution, includes Getter, Observer.
  * 
  * <p>
- * <strong>NOT</strong> includes Setter.<br />
+ * <strong>NOT</strong> includes Setter.
  * </p>
  * <ul>
  * <li>To build LogicalCompution instance,
@@ -118,7 +118,7 @@ public interface LogicalCompution extends BooleanCompution {
 	 * Returns NAND Logical Compution instance.
 	 * 
 	 * <p>
-	 * Returns NOT(AND) compution.<br />
+	 * Returns NOT(AND) compution.
 	 * </p>
 	 * 
 	 * @param observers is BooleanObservers
@@ -133,7 +133,7 @@ public interface LogicalCompution extends BooleanCompution {
 	 * Returns NAND Logical Compution instance.
 	 * 
 	 * <p>
-	 * Returns NOT(AND) compution.<br />
+	 * Returns NOT(AND) compution.
 	 * </p>
 	 * 
 	 * @param observers is BooleanObservers
@@ -148,7 +148,7 @@ public interface LogicalCompution extends BooleanCompution {
 	 * Returns NOR Logical Compution instance.
 	 * 
 	 * <p>
-	 * Returns NOT(OR) compution.<br />
+	 * Returns NOT(OR) compution.
 	 * </p>
 	 * 
 	 * @param observers is BooleanObservers
@@ -163,7 +163,7 @@ public interface LogicalCompution extends BooleanCompution {
 	 * Returns NOR Logical Compution instance
 	 * 
 	 * <p>
-	 * Returns NOT(OR) compution.<br />
+	 * Returns NOT(OR) compution.
 	 * </p>
 	 * 
 	 * @param observers is BooleanObservers

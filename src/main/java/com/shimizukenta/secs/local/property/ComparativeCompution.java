@@ -8,7 +8,7 @@ import com.shimizukenta.secs.local.property.impl.StringUtils;
  * Comparative Boolean Compution, includes Getter, Observer.
  * 
  * <p>
- * <strong>NOT</strong> includes Setter.<br />
+ * <strong>NOT</strong> includes Setter.
  * </p>
  * <ul>
  * <li>To build ComparativeCompution instance,

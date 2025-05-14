@@ -13,7 +13,7 @@ public interface StringSettable extends Settable<String> {
 	 * String value setter.
 	 * 
 	 * <p>
-	 * if set value is null, set empty string("").<br />
+	 * if set value is null, set empty string("").
 	 * </p>
 	 * 
 	 * @param value the CharSequence

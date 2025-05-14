@@ -6,7 +6,7 @@ import com.shimizukenta.secs.secs2.Secs2;
  * This interface is implementation of Send and Receive Message.
  * 
  * <p>
- * SecsMessage contains Stream, Function, WBit, Datta<br />
+ * SecsMessage contains Stream, Function, WBit, Datta
  * </p>
  * <ul>
  * <li>To get SECS-II-Stream-Number, {@link #getStream()}</li>
@@ -18,7 +18,7 @@ import com.shimizukenta.secs.secs2.Secs2;
  * <li>To get Message-Session-ID, {@link #sessionId()}</li>
  * </ul>
  * <p>
- * Instances of this class are immutable.<br />
+ * Instances of this class are immutable.
  * </p>
  * 
  * @author kenta-shimizu

@@ -16,8 +16,8 @@ public interface Secs1MessageSendable extends SecsMessageSendable {
 	 * Send SECS-I-Message.
 	 * 
 	 * <p>
-	 * Send Secs1Message,<br />
-	 * Blocking-method.<br />
+	 * Send Secs1Message,
+	 * Blocking-method.
 	 * Wait until sended Primay-Message and Reply-Secs1Message received if exist.
 	 * </p>
 	 * 

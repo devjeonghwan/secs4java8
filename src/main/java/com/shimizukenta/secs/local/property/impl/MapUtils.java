@@ -201,8 +201,8 @@ public final class MapUtils {
 	 * Waiting until containsKey, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already containsKey, return value immediately.<br />
+	 * This is blocking method.
+	 * If already containsKey, return value immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -230,8 +230,8 @@ public final class MapUtils {
 	 * Waiting until containsKey, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already containsKey, return value immediately.<br />
+	 * This is blocking method.
+	 * If already containsKey, return value immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -264,8 +264,8 @@ public final class MapUtils {
 	 * Waiting until containsKey, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already containsKey, return value immediately.<br />
+	 * This is blocking method.
+	 * If already containsKey, return value immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -296,8 +296,8 @@ public final class MapUtils {
 	 * Waiting until NOT containsKey.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> containsKey, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> containsKey, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -317,8 +317,8 @@ public final class MapUtils {
 	 * Waiting until NOT containsKey.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> containsKey, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> containsKey, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -344,8 +344,8 @@ public final class MapUtils {
 	 * Waiting until NOT containsKey.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> containsKey, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> containsKey, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -369,8 +369,8 @@ public final class MapUtils {
 	 * Waiting until isEmpty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already isEmpty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already isEmpty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -389,8 +389,8 @@ public final class MapUtils {
 	 * Waiting until isEmpty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already isEmpty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already isEmpty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -414,8 +414,8 @@ public final class MapUtils {
 	 * Waiting until isEmpty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already isEmpty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already isEmpty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -437,8 +437,8 @@ public final class MapUtils {
 	 * Waiting until NOT isEmpty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> isEmpty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> isEmpty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -457,8 +457,8 @@ public final class MapUtils {
 	 * Waiting until NOT isEmpty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> isEmpty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> isEmpty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key
@@ -482,8 +482,8 @@ public final class MapUtils {
 	 * Waiting until NOT isEmpty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> isEmpty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> isEmpty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <K> Key

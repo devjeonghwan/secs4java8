@@ -12,11 +12,11 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
  * This interface is implementation of Define-Report in GEM (SEMI-E30).
  * 
  * <p>
- * To create new instance, {@link #newInstance(Secs2, CharSequence, List)}<br />
- * To get alias, {@link #alias()}<br />
- * To get RPTID, {@link #reportId()}<br />
- * To get VIDs, {@link #vids()}<br />
- * To S2F33 Single RPTID, {@link #toS2F33Report()}<br />
+ * To create new instance, {@link #newInstance(Secs2, CharSequence, List)}
+ * To get alias, {@link #alias()}
+ * To get RPTID, {@link #reportId()}
+ * To get VIDs, {@link #vids()}
+ * To S2F33 Single RPTID, {@link #toS2F33Report()}
  * </p>
  * <p>
  * Instances of this class are immutable.
@@ -47,13 +47,13 @@ public interface DynamicReport {
 	 * to S2F33-Secs2-Single-Report.
 	 * 
 	 * <p>
-	 * Single-Report-Format:<br />
-	 * &lt;L [2]<br />
-	 * &nbsp;&nbsp;&lt;U4 report-id&gt;<br />
-	 * &nbsp;&nbsp;&lt;L [n]<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 vid-1&gt;<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;...<br />
-	 * &nbsp;&nbsp;&lt;<br />
+	 * Single-Report-Format:
+	 * &lt;L [2]
+	 * &nbsp;&nbsp;&lt;U4 report-id&gt;
+	 * &nbsp;&nbsp;&lt;L [n]
+	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 vid-1&gt;
+	 * &nbsp;&nbsp;&nbsp;&nbsp;...
+	 * &nbsp;&nbsp;&lt;
 	 * &gt;.
 	 * </p>
 	 * 
@@ -87,13 +87,13 @@ public interface DynamicReport {
 	 * newInstace from S2F33-Secs2-Single-Report.
 	 * 
 	 * <p>
-	 * Single-Report-Format:<br />
-	 * &lt;L [2]<br />
-	 * &nbsp;&nbsp;&lt;U4 report-id&gt;<br />
-	 * &nbsp;&nbsp;&lt;L [n]<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 vid-1&gt;<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;...<br />
-	 * &nbsp;&nbsp;&lt;<br />
+	 * Single-Report-Format:
+	 * &lt;L [2]
+	 * &nbsp;&nbsp;&lt;U4 report-id&gt;
+	 * &nbsp;&nbsp;&lt;L [n]
+	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 vid-1&gt;
+	 * &nbsp;&nbsp;&nbsp;&nbsp;...
+	 * &nbsp;&nbsp;&lt;
 	 * &gt;.
 	 * </p>
 	 * 

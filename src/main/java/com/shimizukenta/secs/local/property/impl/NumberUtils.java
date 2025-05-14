@@ -1280,8 +1280,8 @@ public class NumberUtils {
 	 * Waiting until condition is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param i PredicateCompution
@@ -1307,8 +1307,8 @@ public class NumberUtils {
 	 * Waiting until condition is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param i PredicateCompution
@@ -1339,8 +1339,8 @@ public class NumberUtils {
 	 * Waiting until condition is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param i PredicateCompution

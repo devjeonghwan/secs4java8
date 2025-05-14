@@ -104,8 +104,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#isEmpty is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#isEmpty is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#isEmpty is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -119,8 +119,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#isEmpty is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#isEmpty is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#isEmpty is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -137,8 +137,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#isEmpty is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#isEmpty is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#isEmpty is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -154,8 +154,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#isEmpty is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#isEmpty is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#isEmpty is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -169,8 +169,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#isEmpty is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#isEmpty is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#isEmpty is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -187,8 +187,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#isEmpty is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#isEmpty is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#isEmpty is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -204,8 +204,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#contains(Object) is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#contains(Object) is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#contains(Object) is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param o element whose presence in this collection is to be tested
@@ -220,8 +220,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#contains(Object) is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#contains(Object) is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#contains(Object) is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param o element whose presence in this collection is to be tested
@@ -239,8 +239,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#contains(Object) is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#contains(Object) is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#contains(Object) is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param o element whose presence in this collection is to be tested
@@ -257,8 +257,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#contains(Object) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#contains(Object) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#contains(Object) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param o element whose presence in this collection is to be tested
@@ -273,8 +273,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#contains(Object) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#contains(Object) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#contains(Object) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param o element whose presence in this collection is to be tested
@@ -292,8 +292,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#contains(Object) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#contains(Object) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#contains(Object) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param o element whose presence in this collection is to be tested
@@ -310,8 +310,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#containsAll(Collection) is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#containsAll(Collection) is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#containsAll(Collection) is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param c collection to be checked for containment in this collection
@@ -326,8 +326,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#containsAll(Collection) is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#containsAll(Collection) is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#containsAll(Collection) is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param c collection to be checked for containment in this collection
@@ -345,8 +345,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#containsAll(Collection) is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#containsAll(Collection) is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#containsAll(Collection) is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param c collection to be checked for containment in this collection
@@ -363,8 +363,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#containsAll(Collection) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#containsAll(Collection) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#containsAll(Collection) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param c collection to be checked for containment in this collection
@@ -379,8 +379,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#containsAll(Collection) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#containsAll(Collection) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#containsAll(Collection) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param c collection to be checked for containment in this collection
@@ -398,8 +398,8 @@ public interface CollectionObservable<E, T extends Collection<E>> extends Observ
 	 * Waiting until Collection#containsAll(Collection) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Collection#containsAll(Collection) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Collection#containsAll(Collection) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param c collection to be checked for containment in this collection

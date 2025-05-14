@@ -15,7 +15,7 @@ public abstract class AbstractStringProperty extends AbstractProperty<String> im
 	 * Constructor
 	 * 
 	 * <p>
-	 * if value is null, set empty string("").<br />
+	 * if value is null, set empty string("").
 	 * </p>
 	 * 
 	 * @param initial initial-value

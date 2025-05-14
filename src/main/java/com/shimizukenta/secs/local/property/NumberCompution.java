@@ -9,7 +9,7 @@ import com.shimizukenta.secs.local.property.impl.NumberUtils;
  * Number value Compution, includes Getter, Observer.
  * 
  * <p>
- * <strong>NOT</strong> includes Setter.<br />
+ * <strong>NOT</strong> includes Setter.
  * </p>
  * <ul>
  * <li>To build NumberCompution instance,

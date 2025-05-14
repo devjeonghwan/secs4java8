@@ -12,7 +12,7 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
 public enum GRANT6 {
 	
 	/**
-	 * UNDEFINED>
+	 * UNDEFINED.
 	 * 
 	 */
 	UNDEFINED((byte)0xFF),

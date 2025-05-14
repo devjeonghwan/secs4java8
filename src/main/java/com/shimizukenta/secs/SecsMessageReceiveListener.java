@@ -6,7 +6,7 @@ import java.util.EventListener;
  * SecsMessage receive Listener.
  * 
  * <p>
- * Receive-Message is only Primary-SecsMessage.<br />
+ * Receive-Message is only Primary-SecsMessage.
  * </p>
  * 
  * @author kenta-shimizu

@@ -7,10 +7,10 @@ import java.util.List;
  * List value Compution, includes List-methods, Observer.
  * 
  * <p>
- * Unsupport List-methods to change value.<br />
+ * Unsupport List-methods to change value.
  * </p>
  * <p>
- * This interface is built from other Property or Compution.<br />
+ * This interface is built from other Property or Compution.
  * </p>
  * <ul>
  * <li>To detect value changed, {@link #addChangeListener(ChangeListener)}</li>

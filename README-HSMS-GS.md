@@ -63,4 +63,4 @@ Notice: `HsmsGsCommunicator` is **NOT** instance of `SecsCommunicator`.
     Set<HsmsSession> sessions = passive.getHsmsSessions();
 ```
 
-See also ["/src/examples/example6"](/src/examples/example6)
+See also ["example6"](./examples/example6)

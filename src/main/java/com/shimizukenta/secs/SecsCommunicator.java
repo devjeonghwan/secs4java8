@@ -53,9 +53,9 @@ public interface SecsCommunicator extends OpenAndCloseable, SecsGemAccessor, Sec
 	 * Open and wait until communicatable.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already opened, do not open.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already opened, do not open.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @throws IOException if open failed
@@ -67,9 +67,9 @@ public interface SecsCommunicator extends OpenAndCloseable, SecsGemAccessor, Sec
 	 * Open and wait until communicatable.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already opened, do not open.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already opened, do not open.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param timeout the timeout value

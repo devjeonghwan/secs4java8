@@ -150,8 +150,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (condtion == this.booleanValue())}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param condition the boolean value
@@ -164,8 +164,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (condition == this.booleanValue())}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * 
@@ -182,8 +182,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (condition == this.booleanValue())}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param condition the boolean value
@@ -201,8 +201,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (this.booleanValue() == true)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already this.value is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already this.value is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -217,8 +217,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (this.booleanValue() == true)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already this.value is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already this.value is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -236,8 +236,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (this.booleanValue() == true)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already this.value is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already this.value is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -254,8 +254,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (this.booleanValue() == false)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already this.value is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already this.value is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -270,8 +270,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (this.booleanValue() == false)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already this.value is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already this.value is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -289,8 +289,8 @@ public interface BooleanObservable extends Observable<Boolean> {
 	 * Waiting until {@code (this.booleanValue() == false)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already this.value is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already this.value is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty

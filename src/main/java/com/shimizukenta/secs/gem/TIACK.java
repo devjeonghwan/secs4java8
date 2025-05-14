@@ -12,7 +12,7 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
 public enum TIACK {
 	
 	/**
-	 * UNDEFINED>
+	 * UNDEFINED.
 	 * 
 	 */
 	UNDEFINED((byte)0xFF),

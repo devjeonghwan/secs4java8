@@ -6,7 +6,7 @@ import java.util.Optional;
  * This interface implements Reference-Message of SecsWaitReplyMessageException.
  * 
  * <p>
- * To get Reference-SECS-Message, {@link #referenceSecsMessage()}.<br />
+ * To get Reference-SECS-Message, {@link #referenceSecsMessage()}.
  * </p>
  * 
  * @author kenta-shimizu

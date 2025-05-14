@@ -19,7 +19,7 @@ public interface SecsCommunicatorConfigValueGettable {
 	 * Returns Communicator DEVICE-ID.
 	 * 
 	 * <p>
-	 * Returns -1 if not support DEVICE-ID communicator.<br />
+	 * Returns -1 if not support DEVICE-ID communicator.
 	 * </p>
 	 * 
 	 * @return DEVICE-ID
@@ -30,7 +30,7 @@ public interface SecsCommunicatorConfigValueGettable {
 	 * Returns Communicator SESSION-ID.
 	 * 
 	 * <p>
-	 * Returns {@code -1} if not support SESSION-ID communicator.<br />
+	 * Returns {@code -1} if not support SESSION-ID communicator.
 	 * </p>
 	 * 
 	 * @return SESSION-ID

@@ -13,35 +13,35 @@ import com.shimizukenta.secs.secs2.Secs2;
 import com.shimizukenta.secs.secs2.Secs2BytesParseException;
 
 public interface HsmsMessageBuilder extends SecsMessageBuilder<AbstractHsmsMessage, HsmsSession> {
-	
+
 	public AbstractHsmsMessage buildSelectRequest(HsmsSession session);
-	
+
 	public AbstractHsmsMessage buildSelectResponse(HsmsMessage primaryMsg, HsmsMessageSelectStatus status);
-	
+
 	public AbstractHsmsMessage buildDeselectRequest(HsmsSession session);
-	
+
 	public AbstractHsmsMessage buildDeselectResponse(HsmsMessage primaryMsg, HsmsMessageDeselectStatus status);
-	
+
 	public AbstractHsmsMessage buildLinktestResponse(HsmsMessage primaryMsg);
-	
+
 	public AbstractHsmsMessage buildRejectRequest(HsmsMessage referenceMsg, HsmsMessageRejectReason reason);
-	
+
 	public AbstractHsmsMessage buildSeparateRequest(HsmsSession session);
-	
-	
+
+
 	/**
 	 * Builder.
-	 * 
+	 *
 	 * @param header10Bytes the header-10-bytes
 	 * @return instance
 	 */
 	public static AbstractHsmsMessage buildMessage(byte[] header10Bytes) {
 		return AbstractHsmsMessageBuilder.buildMessage(header10Bytes);
 	}
-	
+
 	/**
 	 * Builder.
-	 * 
+	 *
 	 * @param header10Bytes the header-10-bytes
 	 * @param body the SECS-II body
 	 * @return instance
@@ -49,11 +49,11 @@ public interface HsmsMessageBuilder extends SecsMessageBuilder<AbstractHsmsMessa
 	public static AbstractHsmsMessage buildMessage(byte[] header10Bytes, Secs2 body) {
 		return AbstractHsmsMessageBuilder.buildMessage(header10Bytes, body);
 	}
-	
+
 	/**
 	 * Build from List of bytes.
-	 * 
-	 * @param header the header-10-bytes
+	 *
+	 * @param header10Bytes the header-10-bytes
 	 * @param bodies the List of bytes
 	 * @return instance
 	 * @throws Secs2BytesParseException the SECS-II parse failed
@@ -63,5 +63,5 @@ public interface HsmsMessageBuilder extends SecsMessageBuilder<AbstractHsmsMessa
 	public static AbstractHsmsMessage buildFromBytes(byte[] header10Bytes, List<byte[]> bodies) throws Secs2BytesParseException {
 		return AbstractHsmsMessageBuilder.buildFromBytes(header10Bytes, bodies);
 	}
-	
+
 }

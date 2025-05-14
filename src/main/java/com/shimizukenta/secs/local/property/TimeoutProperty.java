@@ -9,7 +9,7 @@ import com.shimizukenta.secs.local.property.impl.AbstractTimeoutProperty;
  * TimeoutAndUnit value Property, includes Getter, Setter, Observer.
  * 
  * <p>
- * This instance can be used as waitUntil-method's timeout parameter.<br />
+ * This instance can be used as waitUntil-method's timeout parameter.
  * </p>
  * <ul>
  * <li>To build instance,

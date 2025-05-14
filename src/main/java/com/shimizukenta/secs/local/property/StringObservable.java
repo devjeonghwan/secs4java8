@@ -129,7 +129,7 @@ public interface StringObservable extends Observable<String> {
 	 * Returns BooleanCompution of isEmpty.
 	 * 
 	 * @return BooleanCompution of isEmpty
-	 * @see StringProperty#isEmpty()
+	 * @see StringProperty#computeIsNotEmpty()
 	 */
 	default public BooleanCompution computeIsEmpty() {
 		return StringUtils.computeIsEmpty(this);
@@ -139,7 +139,7 @@ public interface StringObservable extends Observable<String> {
 	 * Returns BooleanCompution of NOT isEmpty.
 	 * 
 	 * @return BooleanCompution of NOT isEmpty
-	 * @see StringProperty#isEmpty()
+	 * @see StringProperty#computeIsNotEmpty()
 	 */
 	default public BooleanCompution computeIsNotEmpty() {
 		return StringUtils.computeIsNotEmpty(this);
@@ -516,8 +516,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is empty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -531,8 +531,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is empty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -549,8 +549,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is empty.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -566,8 +566,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT empty, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is empty, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is empty, return last value immediately.
 	 * </p>
 	 * 
 	 * @return last value
@@ -582,8 +582,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT empty, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is empty, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is empty, return last value immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -601,8 +601,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT empty, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is empty, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is empty, return last value immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -619,8 +619,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contains, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contains, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contains, return last value immediately.
 	 * </p>
 	 * 
 	 * @param s the sequence to search for
@@ -636,8 +636,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contains, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contains, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contains, return last value immediately.
 	 * </p>
 	 * 
 	 * @param s the sequence to search for
@@ -656,8 +656,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contains, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contains, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contains, return last value immediately.
 	 * </p>
 	 * 
 	 * @param s the sequence to search for
@@ -675,8 +675,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT contains, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contains, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contains, return last value immediately.
 	 * </p>
 	 * 
 	 * @param s the sequence to search for
@@ -692,8 +692,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT contains, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is NOT contains, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is NOT contains, return last value immediately.
 	 * </p>
 	 * 
 	 * @param s the sequence to search for
@@ -712,8 +712,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT contains, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is NOT contains, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is NOT contains, return last value immediately.
 	 * </p>
 	 * 
 	 * @param s the sequence to search for
@@ -731,8 +731,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is startsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is startsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is startsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param prefix the prefix
@@ -748,8 +748,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is startsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is startsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is startsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param prefix the prefix
@@ -768,8 +768,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is startsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is startsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is startsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param prefix the prefix
@@ -787,8 +787,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is startsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is startsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is startsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param prefix the prefix.
@@ -805,8 +805,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is startsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is startsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is startsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param prefix the prefix.
@@ -826,8 +826,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is startsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is startsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is startsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param prefix the prefix.
@@ -846,8 +846,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is endsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is endsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is endsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param suffix the suffix
@@ -863,8 +863,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is endsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is endsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is endsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param suffix the suffix
@@ -883,8 +883,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is endsWith, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is endsWith, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is endsWith, return last value immediately.
 	 * </p>
 	 * 
 	 * @param suffix the suffix
@@ -902,8 +902,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is matches, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is matches, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is matches, return last value immediately.
 	 * </p>
 	 * 
 	 * @param regex the regular expression to which this string is to be matched
@@ -919,8 +919,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is matches, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is matches, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is matches, return last value immediately.
 	 * </p>
 	 * 
 	 * @param regex the regular expression to which this string is to be matched
@@ -939,8 +939,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is matches, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is matches, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is matches, return last value immediately.
 	 * </p>
 	 * 
 	 * @param regex the regular expression to which this string is to be matched
@@ -958,8 +958,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contentEquals, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param cs The sequence to compare this String against
@@ -975,8 +975,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contentEquals, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param cs The sequence to compare this String against
@@ -995,8 +995,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contentEquals, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param cs The sequence to compare this String against
@@ -1014,8 +1014,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contentEquals, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param sb The StringBuffer to compare this String against
@@ -1031,8 +1031,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contentEquals, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param sb The StringBuffer to compare this String against
@@ -1051,8 +1051,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is contentEquals, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param sb The StringBuffer to compare this String against
@@ -1070,8 +1070,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equal to cs.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the character sequence
@@ -1087,8 +1087,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equal to cs.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the character sequence
@@ -1107,8 +1107,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equal to cs.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the character sequence
@@ -1126,8 +1126,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equal to observer.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1143,8 +1143,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equal to observer.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1163,8 +1163,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equal to observer.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1182,8 +1182,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equal to cs.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the character sequence
@@ -1199,8 +1199,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equal to cs.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the character sequence
@@ -1219,8 +1219,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equal to cs.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the character sequence
@@ -1238,8 +1238,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equal to observer value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1255,8 +1255,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equal to observer value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1275,8 +1275,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equal to observer value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1294,8 +1294,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1311,8 +1311,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1331,8 +1331,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1350,8 +1350,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1367,8 +1367,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1387,8 +1387,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1406,8 +1406,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1423,8 +1423,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1443,8 +1443,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1462,8 +1462,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1479,8 +1479,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1499,8 +1499,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1518,8 +1518,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1535,8 +1535,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1555,8 +1555,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1574,8 +1574,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1591,8 +1591,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1611,8 +1611,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1630,8 +1630,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1647,8 +1647,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1667,8 +1667,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(cs.toString()) >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs the Character Sequence
@@ -1686,8 +1686,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1703,8 +1703,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1723,8 +1723,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is {@code compareTo(observer.toString()) >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the observer
@@ -1742,8 +1742,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs The Character Sequence to compare this String against
@@ -1759,8 +1759,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs The Character Sequence to compare this String against
@@ -1779,8 +1779,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs The Character Sequence to compare this String against
@@ -1798,8 +1798,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer The observer to compare this String against
@@ -1815,8 +1815,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer The observer to compare this String against
@@ -1835,8 +1835,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer The observer to compare this String against
@@ -1854,8 +1854,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs The Character Sequence to compare this String against
@@ -1871,8 +1871,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs The Character Sequence to compare this String against
@@ -1891,8 +1891,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param cs The Character Sequence to compare this String against
@@ -1910,8 +1910,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer The observer to compare this String against
@@ -1927,8 +1927,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer The observer to compare this String against
@@ -1947,8 +1947,8 @@ public interface StringObservable extends Observable<String> {
 	 * Waiting until value is NOT equalsIgnoreCase.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer The observer to compare this String against

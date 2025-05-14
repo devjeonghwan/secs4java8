@@ -31,7 +31,7 @@ public interface Secs1MessageBlock {
 	 * Returns Block Device-ID number.
 	 * 
 	 * <p>
-	 * Returns -1 if block is <strong>NOT</strong> valid data.<br />
+	 * Returns -1 if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @return Device-ID
@@ -42,7 +42,7 @@ public interface Secs1MessageBlock {
 	 * Returns Block E-Bit.
 	 * 
 	 * <p>
-	 * Returns false if block is <strong>NOT</strong> valid data.<br />
+	 * Returns false if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @return true if has e-bit
@@ -53,7 +53,7 @@ public interface Secs1MessageBlock {
 	 * Returns Block number.
 	 * 
 	 * <p>
-	 * Returns -1 if block is <strong>NOT</strong> valid data.<br />
+	 * Returns -1 if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @return block number
@@ -64,7 +64,7 @@ public interface Secs1MessageBlock {
 	 * Return Block is First.
 	 * 
 	 * <p>
-	 * Returns false if block is <strong>NOT</strong> valid data.<br />
+	 * Returns false if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @return true if block-number is ZERO or ONE
@@ -75,7 +75,7 @@ public interface Secs1MessageBlock {
 	 * Returns Length-byte number.
 	 * 
 	 * <p>
-	 * Returns -1 if block is <strong>NOT</strong> valid data.<br />
+	 * Returns -1 if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @return Length-byte number
@@ -93,7 +93,7 @@ public interface Secs1MessageBlock {
 	 * Returns Check SUM result.
 	 * 
 	 * <p>
-	 * Returns false if block is <strong>NOT</strong> valid data.<br />
+	 * Returns false if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @return true if check-sum is valid
@@ -104,7 +104,7 @@ public interface Secs1MessageBlock {
 	 * Returns Block system bytes is equals.
 	 * 
 	 * <p>
-	 * Returns false if block is <strong>NOT</strong> valid data.<br />
+	 * Returns false if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @param otherBlock the Other SECS-I Message Block
@@ -116,7 +116,7 @@ public interface Secs1MessageBlock {
 	 * Returns nextBlock is next block.
 	 * 
 	 * <p>
-	 * Returns false if block is <strong>NOT</strong> valid data.<br />
+	 * Returns false if block is <strong>NOT</strong> valid data.
 	 * </p>
 	 * 
 	 * @param nextBlock the next SECS-I Message Block

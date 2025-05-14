@@ -16,7 +16,7 @@ public class RetryCountIllegalArgumentException extends IllegalArgumentException
 	 * @param retryCount the SECS-I config Retry Count
 	 */
 	public RetryCountIllegalArgumentException(int retryCount) {
-		super("retry is >= 0, count=" + retryCount);
+		super("retry must be greater than = 0, count=" + retryCount);
 	}
 	
 }

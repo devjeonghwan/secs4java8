@@ -24,7 +24,7 @@ public enum HsmsMessageSelectStatus {
 	 * SUCCESS.
 	 * 
 	 * <p>
-	 * STATUS: 0x00<br />
+	 * STATUS: 0x00
 	 * </p>
 	 */
 	SUCCESS((byte)0),
@@ -33,7 +33,7 @@ public enum HsmsMessageSelectStatus {
 	 * ACTIVED.
 	 * 
 	 * <p>
-	 * STATUS: 0x01<br />
+	 * STATUS: 0x01
 	 * </p>
 	 */
 	ACTIVED((byte)1),
@@ -42,7 +42,7 @@ public enum HsmsMessageSelectStatus {
 	 * NOT_READY.
 	 * 
 	 * <p>
-	 * STATUS: 0x02<br />
+	 * STATUS: 0x02
 	 * </p>
 	 */
 	NOT_READY((byte)2),
@@ -51,7 +51,7 @@ public enum HsmsMessageSelectStatus {
 	 * ALREADY_USED.
 	 * 
 	 * <p>
-	 * STATUS: 0x03<br />
+	 * STATUS: 0x03
 	 * </p>
 	 */
 	ALREADY_USED((byte)3),
@@ -60,7 +60,7 @@ public enum HsmsMessageSelectStatus {
 	 * ENTITY_UNKNOWN.
 	 * 
 	 * <p>
-	 * STATUS: 0x04<br />
+	 * STATUS: 0x04
 	 * </p>
 	 */
 	ENTITY_UNKNOWN((byte)4),
@@ -69,7 +69,7 @@ public enum HsmsMessageSelectStatus {
 	 * ENTITY_ALREADY_USED.
 	 * 
 	 * <p>
-	 * STATUS: 0x05<br />
+	 * STATUS: 0x05
 	 * </p>
 	 */
 	ENTITY_ALREADY_USED((byte)5),
@@ -78,7 +78,7 @@ public enum HsmsMessageSelectStatus {
 	 * ENTITY_ACTIVED.
 	 * 
 	 * <p>
-	 * STATUS: 0x06<br />
+	 * STATUS: 0x06
 	 * </p>
 	 */
 	ENTITY_ACTIVED((byte)6),

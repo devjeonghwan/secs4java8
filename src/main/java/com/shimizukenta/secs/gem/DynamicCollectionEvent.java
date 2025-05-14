@@ -9,9 +9,9 @@ import com.shimizukenta.secs.secs2.Secs2;
  * This interface is implementation of Enable-CEID in GEM (SEMI-E30).
  * 
  * <p>
- * To get alias, {@link #alias()}<br />
- * To get CEID, {@link #collectionEventId()}<br />
- * To S2F37 Single CEID, {@link #toS2F37CollectionEvent()}<br />
+ * To get alias, {@link #alias()}
+ * To get CEID, {@link #collectionEventId()}
+ * To S2F37 Single CEID, {@link #toS2F37CollectionEvent()}
  * </p>
  * <p>
  * Instances of this class are immutable.
@@ -62,7 +62,7 @@ public interface DynamicCollectionEvent {
 	 * newInstance from S2F37 Secs2 Single-Collection-Event.
 	 * 
 	 * <p>
-	 * Single-Collection-Event-Format:<br />
+	 * Single-Collection-Event-Format:
 	 * &lt;U4 ceid&gt;
 	 * </p>
 	 * 

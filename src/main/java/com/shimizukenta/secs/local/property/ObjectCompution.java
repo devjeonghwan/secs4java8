@@ -4,10 +4,10 @@ package com.shimizukenta.secs.local.property;
  * Object value Compution, includes Getter, Observer.
  * 
  * <p>
- * <strong>NOT</strong> includes Setter.<br />
+ * <strong>NOT</strong> includes Setter.
  * </p>
  * <p>
- * This instance is built from other Property or Compution.<br />
+ * This instance is built from other Property or Compution.
  * </p>
  * <ul>
  * <li>To get value, {@link #get()}</li>

@@ -129,8 +129,8 @@ public final class ObjectUtils {
 	 * Waiting until value is not null, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is not null, return value immediately.<br />
+	 * This is blocking method.
+	 * If already value is not null, return value immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -148,8 +148,8 @@ public final class ObjectUtils {
 	 * Waiting until value is not null, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is not null, return value immediately.<br />
+	 * This is blocking method.
+	 * If already value is not null, return value immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -172,8 +172,8 @@ public final class ObjectUtils {
 	 * Waiting until value is not null, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is not null, return value immediately.<br />
+	 * This is blocking method.
+	 * If already value is not null, return value immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -194,8 +194,8 @@ public final class ObjectUtils {
 	 * Waiting until value is null.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is null, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is null, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -212,8 +212,8 @@ public final class ObjectUtils {
 	 * Waiting until value is null.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is null, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is null, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -235,8 +235,8 @@ public final class ObjectUtils {
 	 * Waiting until value is null.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is null, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is null, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -366,8 +366,8 @@ public final class ObjectUtils {
 	 * Waiting until {@code (a.value == b.value)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already {@code (a.value == b.value)}, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already {@code (a.value == b.value)}, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -387,8 +387,8 @@ public final class ObjectUtils {
 	 * Waiting until {@code (a.value == b.value)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already {@code (a.value == b.value)}, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already {@code (a.value == b.value)}, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -413,8 +413,8 @@ public final class ObjectUtils {
 	 * Waiting until {@code (a.value == b.value)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already {@code (a.value == b.value)}, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already {@code (a.value == b.value)}, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -437,8 +437,8 @@ public final class ObjectUtils {
 	 * Waiting until {@code (a.value != b.value)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already {@code (a.value != b.value)}, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already {@code (a.value != b.value)}, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -458,8 +458,8 @@ public final class ObjectUtils {
 	 * Waiting until {@code (a.value != b.value)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already {@code (a.value != b.value)}, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already {@code (a.value != b.value)}, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type
@@ -484,8 +484,8 @@ public final class ObjectUtils {
 	 * Waiting until {@code (a.value != b.value)}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already {@code (a.value != b.value)}, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already {@code (a.value != b.value)}, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <T> Type

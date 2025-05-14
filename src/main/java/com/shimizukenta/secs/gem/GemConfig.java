@@ -8,9 +8,9 @@ import com.shimizukenta.secs.secs2.Secs2Item;
  * This interface is GEM config.
  * 
  * <p>
- * To set Model-Number, {@link #mdln(CharSequence)}<br />
- * To set Software-Revision, {@link #softrev(CharSequence)}<br />
- * To set Clock-type, {@link #clockType(ClockType)}<br />
+ * To set Model-Number, {@link #mdln(CharSequence)}
+ * To set Software-Revision, {@link #softrev(CharSequence)}
+ * To set Clock-type, {@link #clockType(ClockType)}
  * </p>
  * 
  * @author shimizukenta

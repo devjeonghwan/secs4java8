@@ -27,10 +27,10 @@ public interface EntityMessageSender extends SecsMessageSendable {
 	 * S9F9, Transaction Timeout.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
-	 * @param SecsWaitReplyMessageException
+	 * @param e SecsWaitReplyMessageException
 	 * @return {@code Optional.empty()}
 	 * @throws SecsSendMessageException if send failed
 	 * @throws SecsWaitReplyMessageException if receive message failed, e.g. Timeout-T3

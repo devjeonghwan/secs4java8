@@ -59,7 +59,7 @@ This library is SEMI-SECS-communicate implementation on Java8.
 
 - For Use HSMS-GS
 
-  to [HSMS-GS README](/README-HSMS-GS.md)
+  to [HSMS-GS README](./README-HSMS-GS.md)
 
 - For use SECS-I (onTcpIp) example
 
@@ -111,7 +111,7 @@ This library is SEMI-SECS-communicate implementation on Java8.
 
 How to convert TCP/IP <-> RS232C
 - [Use XPort](https://www.lantronix.com/products/xport/)
-- [Use Raspberry Pi sample](/src/main/raspi-python/TcpIpSerialConverter)
+- [Use Raspberry Pi sample](./src/main/resources/raspi-python/TcpIpSerialConverter)
 
 ## Send Primary-Message and receive Reply-Message
 
@@ -126,7 +126,7 @@ How to convert TCP/IP <-> RS232C
     );                                      /* >.                       */
 ```
 
-See also ["/src/examples/example3/ExampleBuildSecs2.java"](/src/examples/example3/ExampleBuildSecs2.java)
+See also ["ExampleBuildSecs2.java"](./examples/example3/ExampleBuildSecs2.java)
 
 2. Send Primary-Message
 
@@ -214,7 +214,7 @@ See also ["/src/examples/example3/ExampleBuildSecs2.java"](/src/examples/example
 | optionalDouble     | ✓ |   |   | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | optionalNumber     | ✓ |   |   | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
-See also ["/src/examples/example4/ExampleGetSecs2Value.java"](/src/examples/example4/ExampleGetSecs2Value.java)
+See also ["ExampleGetSecs2Value.java"](./examples/example4/ExampleGetSecs2Value.java)
 
 3. Send Reply-Message
 
@@ -470,4 +470,4 @@ TimeFormat (A[12] or A[16]) can be set from `AbstractSecsCommunicatorConfig#gem#
     Secs2 dataId = passive.gem().autoDataId();
 ```
 
-See also ["/src/examples/example5/ExampleGem.java"](/src/examples/example5/ExampleGem.java)  
+See also ["ExampleGem.java"](./examples/example5/ExampleGem.java)  

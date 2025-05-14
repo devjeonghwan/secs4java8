@@ -11,8 +11,8 @@ import com.shimizukenta.secs.secs2.Secs2;
  * 
  * <ul>
  * <li>This instance get from {@link SmlMessage#of(CharSequence)}</li>
- * <li>This instance get from {@link SmlMessage#of(java.io.Reader)}</li>
- * <li>This instance get from {@link SmlMessage#of(java.nio.file.Path)}</li>
+ * <li>This instance get from {@link SmlMessage#of(Reader)}</li>
+ * <li>This instance get from {@link SmlMessage#of(Path)}</li>
  * <li>This instance get from {@link SmlMessageParser#parse(CharSequence)}</li>
  * </ul>
  * <ul>
@@ -22,7 +22,7 @@ import com.shimizukenta.secs.secs2.Secs2;
  * <li>To get SECS-II-Data, {@link #secs2()}</li>
  * </ul>
  * <p>
- * Instances of this class are immutable.<br />
+ * Instances of this class are immutable.
  * </p>
  * 
  * @author kenta-shimizu

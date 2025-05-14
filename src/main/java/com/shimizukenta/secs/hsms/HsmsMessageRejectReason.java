@@ -24,7 +24,7 @@ public enum HsmsMessageRejectReason {
 	 * NOT_SUPPORT_TYPE_S.
 	 * 
 	 * <p>
-	 * REASON: 0x01<br />
+	 * REASON: 0x01
 	 * </p>
 	 */
 	NOT_SUPPORT_TYPE_S((byte)1),
@@ -33,7 +33,7 @@ public enum HsmsMessageRejectReason {
 	 * NOT_SUPPORT_TYPE_P.
 	 * 
 	 * <p>
-	 * REASON: 0x02<br />
+	 * REASON: 0x02
 	 * </p>
 	 */
 	NOT_SUPPORT_TYPE_P((byte)2),
@@ -42,7 +42,7 @@ public enum HsmsMessageRejectReason {
 	 * TRANSACTION_NOT_OPEN.
 	 * 
 	 * <p>
-	 * REASON: 0x03<br />
+	 * REASON: 0x03
 	 * </p>
 	 */
 	TRANSACTION_NOT_OPEN((byte)3),
@@ -51,7 +51,7 @@ public enum HsmsMessageRejectReason {
 	 * NOT_SELECTED.
 	 * 
 	 * <p>
-	 * REASON: 0x04<br />
+	 * REASON: 0x04
 	 * </p>
 	 */
 	NOT_SELECTED((byte)4),

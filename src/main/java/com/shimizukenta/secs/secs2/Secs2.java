@@ -14,11 +14,11 @@ import com.shimizukenta.secs.secs2.impl.Secs2Builders;
  * This interface is implementation of SECS-II (SEMI-E5).
  * 
  * <p>
- * Used for build and parse SECS-II data.<br />
- * Support item-type: L, B, BOOLEAN, A, I1, I2, I4, I8, U1, U2, U4, U8, F4, F8<br />
+ * Used for build and parse SECS-II data.
+ * Support item-type: L, B, BOOLEAN, A, I1, I2, I4, I8, U1, U2, U4, U8, F4, F8
  * </p>
  * <p>
- * Instances of this class are immutable.<br />
+ * Instances of this class are immutable.
  * </p>
  * 
  * @author kenta-shimizu

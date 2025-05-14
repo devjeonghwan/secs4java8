@@ -2,7 +2,7 @@
  * Provides 'Property' intarfaces. this is similar to JavaFX 'javafx.beans.property'.
  * 
  * <p>
- * Includes Setter/Getter/Observer, Number/Comparative/Logical compution and blocking methods to wait until condition is true.<br />
+ * Includes Setter/Getter/Observer, Number/Comparative/Logical compution and blocking methods to wait until condition is true.
  * </p>
  * <ul>
  * <li>Property

@@ -6,7 +6,7 @@ import com.shimizukenta.secs.SecsMessagePassThroughLog;
  * This interface is extend with Pass-Through HsmsMessage.
  * 
  * <p>
- * To get Pass-Through HsmsMessage, {@link #getHsmsMessage()}.<br />
+ * To get Pass-Through HsmsMessage, {@link #getHsmsMessage()}.
  * </p>
  * 
  * @author kenta-shimizu

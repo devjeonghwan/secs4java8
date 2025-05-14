@@ -18,8 +18,8 @@ public enum HsmsMessageType {
 	 * DATA.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x00<br />
+	 * P: 0x00
+	 * S: 0x00
 	 * </p>
 	 */
 	DATA( (byte)0, (byte)0 ),
@@ -28,8 +28,8 @@ public enum HsmsMessageType {
 	 * SELECT_REQ.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x01<br />
+	 * P: 0x00
+	 * S: 0x01
 	 * </p>
 	 */
 	SELECT_REQ( (byte)0, (byte)1 ),
@@ -38,8 +38,8 @@ public enum HsmsMessageType {
 	 * SELECT_RSP.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x02<br />
+	 * P: 0x00
+	 * S: 0x02
 	 * </p>
 	 */
 	SELECT_RSP( (byte)0, (byte)2 ),
@@ -48,8 +48,8 @@ public enum HsmsMessageType {
 	 * DESELECT_REQ.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x03<br />
+	 * P: 0x00
+	 * S: 0x03
 	 * </p>
 	 */
 	DESELECT_REQ( (byte)0, (byte)3 ),
@@ -58,8 +58,8 @@ public enum HsmsMessageType {
 	 * DESELECT_RSP.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x04<br />
+	 * P: 0x00
+	 * S: 0x04
 	 * </p>
 	 */
 	DESELECT_RSP( (byte)0, (byte)4 ),
@@ -68,8 +68,8 @@ public enum HsmsMessageType {
 	 * LINKTEST_REQ.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x05<br />
+	 * P: 0x00
+	 * S: 0x05
 	 * </p>
 	 */
 	LINKTEST_REQ( (byte)0, (byte)5 ),
@@ -78,8 +78,8 @@ public enum HsmsMessageType {
 	 * LINKTEST_RSP.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x06<br />
+	 * P: 0x00
+	 * S: 0x06
 	 * </p>
 	 */
 	LINKTEST_RSP( (byte)0, (byte)6 ),
@@ -88,8 +88,8 @@ public enum HsmsMessageType {
 	 * REJECT_REQ.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x07<br />
+	 * P: 0x00
+	 * S: 0x07
 	 * </p>
 	 */
 	REJECT_REQ( (byte)0, (byte)7 ),
@@ -98,8 +98,8 @@ public enum HsmsMessageType {
 	 * SEPARATE_REQ.
 	 * 
 	 * <p>
-	 * P: 0x00<br />
-	 * S: 0x09<br />
+	 * P: 0x00
+	 * S: 0x09
 	 * </p>
 	 */
 	SEPARATE_REQ( (byte)0, (byte)9 ),

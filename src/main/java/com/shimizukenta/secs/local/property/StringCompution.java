@@ -9,10 +9,10 @@ import com.shimizukenta.secs.local.property.impl.StringUtils;
  * String value compution, includes Getter, Observer.
  * 
  * <p>
- * <strong>NOT</strong> includes Setter.<br />
+ * <strong>NOT</strong> includes Setter.
  * </p>
  * <p>
- * This instance is built from other Property or Compution.<br />
+ * This instance is built from other Property or Compution.
  * </p>
  * <ul>
  * <li>To build joined StringCompution, {@link #join(CharSequence, StringObservable...)}.</li>

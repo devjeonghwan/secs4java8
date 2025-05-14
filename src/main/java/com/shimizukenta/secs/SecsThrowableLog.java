@@ -4,7 +4,7 @@ package com.shimizukenta.secs;
  * This interface is extend with Throwable.
  * 
  * <p>
- * To get Throwable cause, {@link #getCause()}.<br />
+ * To get Throwable cause, {@link #getCause()}.
  * </p>
  * 
  * @author kenta-shimizu

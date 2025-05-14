@@ -14,7 +14,7 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
  * This interface is implementation of GEM (SEMI-E30, partially).
  * 
  * <p>
- * To get this interface, call from {@link SecsCommunicator#gem()}<br />
+ * To get this interface, call from {@link SecsCommunicator#gem()}
  * </p>
  * 
  * @author kenta-shimizu
@@ -48,7 +48,7 @@ public interface Gem {
 	 * S1F1, Are You Online?.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return Reply-Message
@@ -67,8 +67,8 @@ public interface Gem {
 	 * S1F2, On Line Data.
 	 * 
 	 * <p>
-	 * MDLN, SOFTREV is reference AbstractGemConfig value.<br />
-	 * blocking-method.<br />
+	 * MDLN, SOFTREV is reference AbstractGemConfig value.
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -88,7 +88,7 @@ public interface Gem {
 	 * S1F13, Establish Communications Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return COMMACK the COMMACK
@@ -109,7 +109,7 @@ public interface Gem {
 	 * S1F14, Establish Communications Request Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -130,7 +130,7 @@ public interface Gem {
 	 * S1F15, Request OFF-LINE.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return OFLACK
@@ -151,7 +151,7 @@ public interface Gem {
 	 * S1F16, OFF-LINE Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -171,7 +171,7 @@ public interface Gem {
 	 * S1F17, Request ON-LINE.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return ONLACK
@@ -192,7 +192,7 @@ public interface Gem {
 	 * S1F18, ON-LINE Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -213,7 +213,7 @@ public interface Gem {
 	 * S2F17, Date and Time Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return Clock
@@ -234,7 +234,7 @@ public interface Gem {
 	 * S2F18, Date and Time Response.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -255,7 +255,7 @@ public interface Gem {
 	 * S2F18, Now Date and Time Response.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -275,7 +275,7 @@ public interface Gem {
 	 * S2F22, Remote Command Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -296,7 +296,7 @@ public interface Gem {
 	 * S2F28, Initiate Processing Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -317,7 +317,7 @@ public interface Gem {
 	 * S2F31, Date and Time Set Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param clock the Clock
@@ -339,7 +339,7 @@ public interface Gem {
 	 * S2F31, Now Date and Time Set Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return TIACK
@@ -360,7 +360,7 @@ public interface Gem {
 	 * S2F32, Date and Time Set Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -381,8 +381,8 @@ public interface Gem {
 	 * S2F33, Delete All Define-Report.
 	 * 
 	 * <p>
-	 * DATA-ID is AutoNumber.<br />
-	 * blocking-method.<br />
+	 * DATA-ID is AutoNumber.
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return DRACK
@@ -403,8 +403,8 @@ public interface Gem {
 	 * S2F33, Define Report.
 	 * 
 	 * <p>
-	 * DATA-ID is AutoNumber.<br />
-	 * blocking-method.<br />
+	 * DATA-ID is AutoNumber.
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param config the DynamicEventReportConfig
@@ -426,7 +426,7 @@ public interface Gem {
 	 * S2F34, Define Report Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -447,8 +447,8 @@ public interface Gem {
 	 * S2F35, Link Collection Event Report.
 	 * 
 	 * <p>
-	 * DATA-ID is AutoNumber.<br />
-	 * blocking-method.<br />
+	 * DATA-ID is AutoNumber.
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param config the config DynamicEventReportConfig
@@ -470,7 +470,7 @@ public interface Gem {
 	 * S2F36, Link Collection Event Report Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -491,7 +491,7 @@ public interface Gem {
 	 * S2F37, Disable All Collection-Event-Report.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return ERACK
@@ -512,7 +512,7 @@ public interface Gem {
 	 * S2F37, Enable All Collection-Event-Report.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return ERACK
@@ -533,7 +533,7 @@ public interface Gem {
 	 * S2F37, Enable Collection-Event-Report.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param config the DynamicEventReportConfig
@@ -555,7 +555,7 @@ public interface Gem {
 	 * S2F38, Enable/Disable CollectionEvent Report Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -576,7 +576,7 @@ public interface Gem {
 	 * S2F40, Multi-block Grant.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -597,7 +597,7 @@ public interface Gem {
 	 * S3F16, Matls Multi-block Grant.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -618,7 +618,7 @@ public interface Gem {
 	 * S5F2, Alarm Report Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -639,7 +639,7 @@ public interface Gem {
 	 * S5F4, Enable/Disable Alarm Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -660,7 +660,7 @@ public interface Gem {
 	 * S6F2, Trace Data Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -681,7 +681,7 @@ public interface Gem {
 	 * S6F4, Discrete Variable Data Send Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -702,7 +702,7 @@ public interface Gem {
 	 * S6F6, Multi-block Grant.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -723,7 +723,7 @@ public interface Gem {
 	 * S6F10, Formatted Variable Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -744,7 +744,7 @@ public interface Gem {
 	 * S6F12, CollectionEvent Report Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -765,7 +765,7 @@ public interface Gem {
 	 * S6F14, Annotated CollectionEvent Report Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -786,7 +786,7 @@ public interface Gem {
 	 * S6F15, Event Report Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param ce the DynamicCollectionEvent
@@ -806,7 +806,7 @@ public interface Gem {
 	 * S6F17, Annotated Event Report Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param ce the DynamicCollectionEvent
@@ -826,7 +826,7 @@ public interface Gem {
 	 * S6F19, Individual Report Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param report the DynamicReport
@@ -846,7 +846,7 @@ public interface Gem {
 	 * S6F21, Annotated Individual Report Request.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param report the DynamicReport
@@ -866,7 +866,7 @@ public interface Gem {
 	 * S6F26, Notification Report Send Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -887,7 +887,7 @@ public interface Gem {
 	 * S7F4, Process Program Send Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -908,7 +908,7 @@ public interface Gem {
 	 * S7F12, Matl/Process Matrix Update Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -929,7 +929,7 @@ public interface Gem {
 	 * S7F14, Delete Matl/Process Matrix Entry Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -950,7 +950,7 @@ public interface Gem {
 	 * S7F16, Matrix Mode Select Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -971,7 +971,7 @@ public interface Gem {
 	 * S7F18, Delete Process Program Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -992,7 +992,7 @@ public interface Gem {
 	 * S7F24, Formatted Process Program Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1013,7 +1013,7 @@ public interface Gem {
 	 * S7F32, Verification Request Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1034,7 +1034,7 @@ public interface Gem {
 	 * S7F38, Large PP Send Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1055,7 +1055,7 @@ public interface Gem {
 	 * S7F40, Large Formatted PP Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1076,7 +1076,7 @@ public interface Gem {
 	 * S7F42, Large PP Req Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1097,7 +1097,7 @@ public interface Gem {
 	 * S7F44, Large Formatted PP Req Ack.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1118,7 +1118,7 @@ public interface Gem {
 	 * S9F1, Unknown Device ID.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param refMsg the reference message
@@ -1138,7 +1138,7 @@ public interface Gem {
 	 * S9F3, Unknown Stream.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param refMsg the reference message
@@ -1158,7 +1158,7 @@ public interface Gem {
 	 * S9F5, Unknown Function.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param refMsg the reference message
@@ -1178,7 +1178,7 @@ public interface Gem {
 	 * S9F7, Illegal Data.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param refMsg the reference message
@@ -1198,7 +1198,7 @@ public interface Gem {
 	 * S9F9, Transaction Timeout.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param refMsg the reference message
@@ -1218,7 +1218,7 @@ public interface Gem {
 	 * S9F11, Data Too Long.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param refMsg the reference message
@@ -1242,7 +1242,7 @@ public interface Gem {
 	 * S10F2, Terminal Request Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1263,7 +1263,7 @@ public interface Gem {
 	 * S10F4, Terminal Display, Single Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1284,7 +1284,7 @@ public interface Gem {
 	 * S10F6, Terminal Display, Multi-Block Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1305,7 +1305,7 @@ public interface Gem {
 	 * S10F10, Broadcast Acknowledge.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message
@@ -1326,7 +1326,7 @@ public interface Gem {
 	 * S13F12, Data Set Obj Multi-Block Grant.
 	 * 
 	 * <p>
-	 * blocking-method.<br />
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @param primaryMsg the primary message

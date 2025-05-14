@@ -83,7 +83,7 @@ public interface Secs2Builder {
 	 * Returns SECS-II-String Data of cs.
 	 * 
 	 * <p>
-	 * Not accept {@code null}.<br />
+	 * Not accept {@code null}.
 	 * </p>
 	 * 
 	 * @param cs the CharSequence

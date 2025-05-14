@@ -68,8 +68,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -86,8 +86,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -109,8 +109,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -130,8 +130,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -148,8 +148,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -171,8 +171,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -193,8 +193,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -211,8 +211,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -234,8 +234,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -255,8 +255,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -273,8 +273,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -296,8 +296,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT equal.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> equal, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> equal, pass through immediately.
 	 * </p>
 	 * 
 	 * @param <U> Type
@@ -337,8 +337,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT null, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> null, return value immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> null, return value immediately.
 	 * </p>
 	 * 
 	 * @return value
@@ -352,8 +352,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT null, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> null, return value immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> null, return value immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -370,8 +370,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is NOT null, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is <strong>NOT</strong> null, return value immediately.<br />
+	 * This is blocking method.
+	 * If already value is <strong>NOT</strong> null, return value immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -387,8 +387,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is null.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is null, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is null, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -401,8 +401,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is null.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is null, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is null, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -418,8 +418,8 @@ public interface ObjectObservable<T> extends Observable<T> {
 	 * Waiting until value is null.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is null, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is null, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty

@@ -11,9 +11,9 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
  * This interface is implementation of Event-Report-Link in GEM (SEMI-E30).
  * 
  * <p>
- * To create new instance, {@link #newInstance(DynamicCollectionEvent, List)}<br />
- * To get CEID, {@link #collectionEventId()}<br />
- * To get RPTIDs, {@link #reportIds()}<br />
+ * To create new instance, {@link #newInstance(DynamicCollectionEvent, List)}
+ * To get CEID, {@link #collectionEventId()}
+ * To get RPTIDs, {@link #reportIds()}
  * To S2F35 Single Link, {@link #toS2F35Link()}
  * </p>
  * <p>
@@ -44,13 +44,13 @@ public interface DynamicLink {
 	 * to S2F35-Secs2-Single-Link.
 	 * 
 	 * <p>
-	 * Single-Link-Format:<br />
-	 * &lt;L [2]<br />
-	 * &nbsp;&nbsp;&lt;U4 collection-event-id&gt;<br />
-	 * &nbsp;&nbsp;&lt;L [n]<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 report-id-1&gt;<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;...<br />
-	 * &nbsp;&nbsp;&lt;<br />
+	 * Single-Link-Format:
+	 * &lt;L [2]
+	 * &nbsp;&nbsp;&lt;U4 collection-event-id&gt;
+	 * &nbsp;&nbsp;&lt;L [n]
+	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 report-id-1&gt;
+	 * &nbsp;&nbsp;&nbsp;&nbsp;...
+	 * &nbsp;&nbsp;&lt;
 	 * &gt;.
 	 * </p>
 	 * 
@@ -84,13 +84,13 @@ public interface DynamicLink {
 	 * newInstance from S2F35-Secs2-Single-Link.
 	 * 
 	 * <p>
-	 * Single-Link-Format:<br />
-	 * &lt;L [2]<br />
-	 * &nbsp;&nbsp;&lt;U4 collection-event-id&gt;<br />
-	 * &nbsp;&nbsp;&lt;L [n]<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 report-id-1&gt;<br />
-	 * &nbsp;&nbsp;&nbsp;&nbsp;...<br />
-	 * &nbsp;&nbsp;&lt;<br />
+	 * Single-Link-Format:
+	 * &lt;L [2]
+	 * &nbsp;&nbsp;&lt;U4 collection-event-id&gt;
+	 * &nbsp;&nbsp;&lt;L [n]
+	 * &nbsp;&nbsp;&nbsp;&nbsp;&lt;U4 report-id-1&gt;
+	 * &nbsp;&nbsp;&nbsp;&nbsp;...
+	 * &nbsp;&nbsp;&lt;
 	 * &gt;.
 	 * </p>
 	 * 

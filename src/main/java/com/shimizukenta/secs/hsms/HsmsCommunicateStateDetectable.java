@@ -27,8 +27,8 @@ public interface HsmsCommunicateStateDetectable extends SecsCommunicateStateDete
 	 * Wait until equals state.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param state the HSMS communicate state
@@ -40,8 +40,8 @@ public interface HsmsCommunicateStateDetectable extends SecsCommunicateStateDete
 	 * Wait until equals state.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param state the HSMS communicate state
@@ -56,8 +56,8 @@ public interface HsmsCommunicateStateDetectable extends SecsCommunicateStateDete
 	 * Wait until <strong>NOT</strong> equals state.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param state the HSMS communicate state
@@ -69,8 +69,8 @@ public interface HsmsCommunicateStateDetectable extends SecsCommunicateStateDete
 	 * Wait until <strong>NOT</strong> equals state.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param state the HSMS communicate state
@@ -86,8 +86,8 @@ public interface HsmsCommunicateStateDetectable extends SecsCommunicateStateDete
 	 * Add Listener to get communicate-state-changed.
 	 * 
 	 * <p>
-	 * Blocking-Listener.<br />
-	 * Pass through quickly.<br />
+	 * Blocking-Listener.
+	 * Pass through quickly.
 	 * </p>
 	 * 
 	 * @param listener the state change listener
@@ -107,8 +107,8 @@ public interface HsmsCommunicateStateDetectable extends SecsCommunicateStateDete
 	 * Add Listener to get communicate-state-changed.
 	 * 
 	 * <p>
-	 * Blocking-Listener.<br />
-	 * Pass through quickly.<br />
+	 * Blocking-Listener.
+	 * Pass through quickly.
 	 * </p>
 	 * 
 	 * @param biListener the state change listener

@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.shimizukenta'
+version = '6.0-SNAPSHOT'
+
+tasks.javadoc {
+    options {
+        encoding = 'UTF-8'
+        charSet  = 'UTF-8'
+        tags 'auther:a:Auther:'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}

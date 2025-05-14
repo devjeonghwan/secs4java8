@@ -10,10 +10,10 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
  * This interface is implementation of Clock in GEM (SEMI-E30).
  * 
  * <p>
- * Relates: S2F17, S2F18, S2F31<br />
+ * Relates: S2F17, S2F18, S2F31
  * </p>
  * <p>
- * Instances of this class are immutable.<br />
+ * Instances of this class are immutable.
  * </p>
  * 
  * @author kenta-shimizu
@@ -44,7 +44,7 @@ public interface Clock {
 	 * Returns new Clock instance from Secs2.
 	 * 
 	 * <p>
-	 * use for Secs2 of S2F18, S2F31<br />
+	 * use for Secs2 of S2F18, S2F31
 	 * </p>
 	 * 
 	 * @param secs2 the Secs2

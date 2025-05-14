@@ -6,7 +6,7 @@ import com.shimizukenta.secs.SecsMessagePassThroughLog;
  * This interface is extend with Pass-Through Secs1Message.
  * 
  * <p>
- * To get Pass-Through Secs1Message, {@link #getSecs1Message()}.<br />
+ * To get Pass-Through Secs1Message, {@link #getSecs1Message()}.
  * </p>
  * 
  * @author kenta-shimizu

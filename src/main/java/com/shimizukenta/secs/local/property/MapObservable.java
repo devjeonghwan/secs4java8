@@ -91,8 +91,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#containsKey(Object) is true, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Map#containsKey(Object) is true, return value immediately.<br />
+	 * This is blocking method.
+	 * If already Map#containsKey(Object) is true, return value immediately.
 	 * </p>
 	 * 
 	 * @param key key whose presence in this map is to be tested
@@ -108,8 +108,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#containsKey(Object) is true, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Map#containsKey(Object) is true, return value immediately.<br />
+	 * This is blocking method.
+	 * If already Map#containsKey(Object) is true, return value immediately.
 	 * </p>
 	 * 
 	 * @param key key whose presence in this map is to be tested
@@ -128,8 +128,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#containsKey(Object) is true, and return value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Map#containsKey(Object) is true, return value immediately.<br />
+	 * This is blocking method.
+	 * If already Map#containsKey(Object) is true, return value immediately.
 	 * </p>
 	 * 
 	 * @param key key whose presence in this map is to be tested
@@ -147,8 +147,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#containsKey(Object) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Map#containsKey(Object) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Map#containsKey(Object) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param key key whose presence in this map is to be tested
@@ -163,8 +163,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#containsKey(Object) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Map#containsKey(Object) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Map#containsKey(Object) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param key key whose presence in this map is to be tested
@@ -182,8 +182,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#containsKey(Object) is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already Map#containsKey(Object) is false, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already Map#containsKey(Object) is false, pass through immediately.
 	 * </p>
 	 * 
 	 * @param key key whose presence in this map is to be tested
@@ -200,8 +200,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#isEmpty() is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -215,8 +215,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#isEmpty() is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -233,8 +233,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#isEmpty() is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -250,8 +250,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#isEmpty() is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -265,8 +265,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#isEmpty() is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -283,8 +283,8 @@ public interface MapObservable<K, V> extends Observable<Map<K, V>> {
 	 * Waiting until Map#isEmpty() is false.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already <strong>NOT</strong> empty, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already <strong>NOT</strong> empty, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty

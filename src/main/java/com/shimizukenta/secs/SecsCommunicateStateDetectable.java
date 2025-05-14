@@ -26,8 +26,8 @@ public interface SecsCommunicateStateDetectable {
 	 * Wait until communicatable.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted
@@ -38,8 +38,8 @@ public interface SecsCommunicateStateDetectable {
 	 * Wait until communicatable.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param timeout the timeout value
@@ -53,8 +53,8 @@ public interface SecsCommunicateStateDetectable {
 	 * Wait until <strong>NOT</strong> communicatable.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already not communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already not communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted
@@ -65,8 +65,8 @@ public interface SecsCommunicateStateDetectable {
 	 * Wait until <strong>NOT</strong> communicatable.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * If Already not communicatable, do nothing.<br />
+	 * Blocking-method.
+	 * If Already not communicatable, do nothing.
 	 * </p>
 	 * 
 	 * @param timeout the timeout value
@@ -81,8 +81,8 @@ public interface SecsCommunicateStateDetectable {
 	 * Add Listener to get communicate-state-changed.
 	 * 
 	 * <p>
-	 * Blocking-Listener.<br />
-	 * Pass through quickly.<br />
+	 * Blocking-Listener.
+	 * Pass through quickly.
 	 * </p>
 	 * 
 	 * @param listener Not accept {@code null}
@@ -102,8 +102,8 @@ public interface SecsCommunicateStateDetectable {
 	 * Add Listener to get communicate-state-changed.
 	 * 
 	 * <p>
-	 * Blocking-Listener.<br />
-	 * Pass through quickly.<br />
+	 * Blocking-Listener.
+	 * Pass through quickly.
 	 * </p>
 	 * 
 	 * @param biListener Not accept {@code null}

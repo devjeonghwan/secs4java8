@@ -24,7 +24,7 @@ public enum HsmsMessageDeselectStatus {
 	 * SUCCRSS.
 	 * 
 	 * <p>
-	 * STATUS: 0x00<br />
+	 * STATUS: 0x00
 	 * </p>
 	 */
 	SUCCESS((byte)0),
@@ -33,7 +33,7 @@ public enum HsmsMessageDeselectStatus {
 	 * NO_SELECTED.
 	 * 
 	 * <p>
-	 * STATUS: 0x01<br />
+	 * STATUS: 0x01
 	 * </p>
 	 */
 	NO_SELECTED((byte)1),
@@ -42,7 +42,7 @@ public enum HsmsMessageDeselectStatus {
 	 * FAILED.
 	 * 
 	 * <p>
-	 * STATUS: 0x02<br />
+	 * STATUS: 0x02
 	 * </p>
 	 */
 	FAILED((byte)2),

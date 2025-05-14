@@ -32,8 +32,8 @@ public interface SecsMessageSendable {
 	 * Send Primary-(Header-only)-Message and receive Reply-Message.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * Wait until sended Primay-Message and received Reply-Message if exist.<br />
+	 * Blocking-method.
+	 * Wait until sended Primay-Message and received Reply-Message if exist.
 	 * </p>
 	 * 
 	 * @param strm SECS-II-Stream-Number
@@ -55,8 +55,8 @@ public interface SecsMessageSendable {
 	 * Send Primary-Message and receive Reply-Message.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * Wait until sended Primay-Message and received Reply-Message if exist.<br />
+	 * Blocking-method.
+	 * Wait until sended Primay-Message and received Reply-Message if exist.
 	 * </p>
 	 * 
 	 * @param strm SECS-II-Stream-Number
@@ -79,8 +79,8 @@ public interface SecsMessageSendable {
 	 * Send Reply-(Header-only)-Message.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * Wait until sended.<br />
+	 * Blocking-method.
+	 * Wait until sended.
 	 * </p>
 	 * 
 	 * @param primaryMsg Primary-Message
@@ -103,8 +103,8 @@ public interface SecsMessageSendable {
 	 * Send Reply-Message.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * Wait until sended.<br />
+	 * Blocking-method.
+	 * Wait until sended.
 	 * </p>
 	 * 
 	 * @param primaryMsg Primary-Message
@@ -125,11 +125,11 @@ public interface SecsMessageSendable {
 			InterruptedException;
 	
 	/**
-	 * Send Primary-Message by SML and receive Reply-Message<br />
+	 * Send Primary-Message by SML and receive Reply-Message
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * Wait until sended Primay-Message and received Reply-Message if exist.<br />
+	 * Blocking-method.
+	 * Wait until sended Primay-Message and received Reply-Message if exist.
 	 * </p>
 	 * 
 	 * @param sml the SML-Message
@@ -149,8 +149,8 @@ public interface SecsMessageSendable {
 	 * Send Reply-Message by SML.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * Wait until sended.<br />
+	 * Blocking-method.
+	 * Wait until sended.
 	 * </p>
 	 * 
 	 * @param primaryMsg Primary-Message.

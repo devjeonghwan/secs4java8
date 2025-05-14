@@ -7,10 +7,10 @@ import java.util.Set;
  * Set value Compution, includes Set-methods, Observer.
  * 
  * <p>
- * Unsupport Set-methods to change value.<br />
+ * Unsupport Set-methods to change value.
  * </p>
  * <p>
- * This instance is built from other Property or Compution.<br />
+ * This instance is built from other Property or Compution.
  * </p>
  * <ul>
  * <li>To detect value changed, {@link #addChangeListener(ChangeListener)}</li>

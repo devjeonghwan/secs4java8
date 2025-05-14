@@ -12,7 +12,7 @@ public interface SecsTimeout {
 	/**
 	 * T1-Timeout setter.
 	 * 
-	 * @param seconds T1-timeout seconds, set value is >0
+	 * @param seconds T1-timeout seconds, set value must be greater than 0
 	 */
 	public void t1(float seconds);
 
@@ -26,7 +26,7 @@ public interface SecsTimeout {
 	/**
 	 * T2-Timeout setter.
 	 * 
-	 * @param seconds T2-timeout seconds, set value is >0
+	 * @param seconds T2-timeout seconds, set value must be greater than 0
 	 */
 	public void t2(float seconds);
 
@@ -40,7 +40,7 @@ public interface SecsTimeout {
 	/**
 	 * T3-Timeout setter.
 	 * 
-	 * @param seconds T3-timeout seconds, set value is >0
+	 * @param seconds T3-timeout seconds, set value must be greater than 0
 	 */
 	public void t3(float seconds);
 
@@ -54,7 +54,7 @@ public interface SecsTimeout {
 	/**
 	 * T4-Timeout setter.
 	 * 
-	 * @param seconds T4-timeout seconds, set value is >0
+	 * @param seconds T4-timeout seconds, set value must be greater than 0
 	 */
 	public void t4(float seconds);
 
@@ -68,7 +68,7 @@ public interface SecsTimeout {
 	/**
 	 * T5-Timeout setter.
 	 * 
-	 * @param seconds T5-timeout seconds, set value is >0
+	 * @param seconds T5-timeout seconds, set value must be greater than 0
 	 */
 	public void t5(float seconds);
 
@@ -82,7 +82,7 @@ public interface SecsTimeout {
 	/**
 	 * T6-Timeout setter.
 	 * 
-	 * @param seconds T6-timeout seconds, set value is >0
+	 * @param seconds T6-timeout seconds, set value must be greater than 0
 	 */
 	public void t6(float seconds);
 
@@ -96,7 +96,7 @@ public interface SecsTimeout {
 	/**
 	 * T7-Timeout setter.
 	 * 
-	 * @param seconds T7-timeout seconds, set value is >0
+	 * @param seconds T7-timeout seconds, set value must be greater than 0
 	 */
 	public void t7(float seconds);
 
@@ -110,7 +110,7 @@ public interface SecsTimeout {
 	/**
 	 * T8-Timeout setter.
 	 * 
-	 * @param seconds T8-timeout seconds, set value is >0
+	 * @param seconds T8-timeout seconds, set value must be greater than 0
 	 */
 	public void t8(float seconds);
 

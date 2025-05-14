@@ -8,12 +8,12 @@ import java.util.Optional;
  * This intarface contains subject, timestamp, detail-information.
  * 
  * <p>
- * This interface is received from {@link SecsCommunicator#addSecsLogListener(SecsLogListener)}<br />
+ * This interface is received from {@link SecsCommunicator#addSecsLogListener(SecsLogListener)}
  * </p>
  * <p>
- * To get subject, {@link #subject()}<br />
- * To get {@link LocalDateTime} timestamp, {@link #timestamp()}<br />
- * To get detail-information Object, {@link #value()}<br />
+ * To get subject, {@link #subject()}
+ * To get {@link LocalDateTime} timestamp, {@link #timestamp()}
+ * To get detail-information Object, {@link #value()}
  * </p>
  * 
  * @author kenta-shimizu

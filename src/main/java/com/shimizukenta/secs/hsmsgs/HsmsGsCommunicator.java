@@ -159,7 +159,7 @@ public interface HsmsGsCommunicator extends OpenAndCloseable, HsmsMessagePassThr
 	 * Returns Optional of HsmsSession.
 	 * 
 	 * <p>
-	 * Optional is present if exist HsmsSession, otherwise empty.<br />
+	 * Optional is present if exist HsmsSession, otherwise empty.
 	 * </p>
 	 * 
 	 * @param sessionId the SESSION-ID
@@ -174,7 +174,7 @@ public interface HsmsGsCommunicator extends OpenAndCloseable, HsmsMessagePassThr
 	 * Add Listener to receive Primary-Message.
 	 * 
 	 * <p>
-	 * This Listener not receive Reply-Message.<br />
+	 * This Listener not receive Reply-Message.
 	 * </p>
 	 * 
 	 * @param biListener Not accept {@code null}
@@ -194,7 +194,7 @@ public interface HsmsGsCommunicator extends OpenAndCloseable, HsmsMessagePassThr
 	 * Add Listener to receive Primary-Message.
 	 * 
 	 * <p>
-	 * This Listener not receive Reply-Message.<br />
+	 * This Listener not receive Reply-Message.
 	 * </p>
 	 * 
 	 * @param biListener Not accept {@code null}
@@ -217,8 +217,8 @@ public interface HsmsGsCommunicator extends OpenAndCloseable, HsmsMessagePassThr
 	 * Add Listener to get communicate-state-changed.
 	 * 
 	 * <p>
-	 * Blocking-Listener.<br />
-	 * Pass through quickly.<br />
+	 * Blocking-Listener.
+	 * Pass through quickly.
 	 * </p>
 	 * 
 	 * @param biListener Not accept {@code null}
@@ -238,8 +238,8 @@ public interface HsmsGsCommunicator extends OpenAndCloseable, HsmsMessagePassThr
 	 * Add Listener to get communicate-state-changed.
 	 * 
 	 * <p>
-	 * Blocking-Listener.<br />
-	 * Pass through quickly.<br />
+	 * Blocking-Listener.
+	 * Pass through quickly.
 	 * </p>
 	 * 
 	 * @param biListener the state change listener

@@ -6,7 +6,7 @@ import java.util.EventListener;
  * SecsLog receive Listener.
  * 
  * <p>
- * This interface is used in {@link SecsCommunicator#addSecsLogListener(SecsLogListener)}<br />
+ * This interface is used in {@link SecsCommunicator#addSecsLogListener(SecsLogListener)}
  * </p>
  * 
  * @author kenta-shimizu
@@ -17,7 +17,7 @@ import java.util.EventListener;
  * SecsLog receive Listener.
  * 
  * <p>
- * This interface is used in {@link SecsCommunicator#addSecsLogListener(SecsLogListener)}<br />
+ * This interface is used in {@link SecsCommunicator#addSecsLogListener(SecsLogListener)}
  * </p>
  * 
  * @author shimizukenta

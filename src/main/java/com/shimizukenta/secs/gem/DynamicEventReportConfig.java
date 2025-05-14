@@ -14,19 +14,19 @@ import com.shimizukenta.secs.secs2.Secs2Exception;
  * This interface is implementation of Dynamic-Event-Report-Configuration in GEM (SEMI-E30).
  * 
  * <p>
- * To create new instance, {@link Gem#newDynamicEventReportConfig()}<br />
+ * To create new instance, {@link Gem#newDynamicEventReportConfig()}
  * </p>
  * <p>
- * To add Define-Report, {@link #addDefineReport(CharSequence, List)}<br />
- * To add Enable-CEID, {@link #addEnableCollectionEvent(CharSequence, long)}<br />
- * To add Link, {@link #addLinkByReport(DynamicCollectionEvent, List)}<br />
+ * To add Define-Report, {@link #addDefineReport(CharSequence, List)}
+ * To add Enable-CEID, {@link #addEnableCollectionEvent(CharSequence, long)}
+ * To add Link, {@link #addLinkByReport(DynamicCollectionEvent, List)}
  * </p>
  * <p>
- * To S2F37 Disable-All-CEIDs, {@link #s2f37DisableAll()}<br />
- * To S2F33 Delete-All-Reports, {@link #s2f33DeleteAll()}<br />
- * To S2F33 Define-Reports, {@link #s2f33Define()}<br />
- * To S2F35 Link, {@link #s2f35()}<br />
- * To S2F37 Enable-CEIDs, {@link #s2f37Enable()}<br />
+ * To S2F37 Disable-All-CEIDs, {@link #s2f37DisableAll()}
+ * To S2F33 Delete-All-Reports, {@link #s2f33DeleteAll()}
+ * To S2F33 Define-Reports, {@link #s2f33Define()}
+ * To S2F35 Link, {@link #s2f35()}
+ * To S2F37 Enable-CEIDs, {@link #s2f37Enable()}
  * </p>
  * <p>
  * Relates: S2F33, S2F35, S2F37, S6F11, S6F13, S6F15, S6F17, S6F19, S6F21
@@ -68,8 +68,8 @@ public interface DynamicEventReportConfig {
 	 * Add Define-Report.
 	 * 
 	 * <p>
-	 * Use for S2F33<br />
-	 * Report-ID is AutoNumber<br />
+	 * Use for S2F33
+	 * Report-ID is AutoNumber
 	 * </p>
 	 * 
 	 * @param alias of use in {@link #getReport(CharSequence)}, {@link #s6f19(CharSequence)}, {@link #s6f21(CharSequence)}
@@ -82,8 +82,8 @@ public interface DynamicEventReportConfig {
 	 * Add Define-Report.
 	 * 
 	 * <p>
-	 * Use for S2F33<br />
-	 * Report-ID is AutoNumber.<br />
+	 * Use for S2F33
+	 * Report-ID is AutoNumber.
 	 * </p>
 	 * 
 	 * @param vids the VIDs
@@ -120,7 +120,7 @@ public interface DynamicEventReportConfig {
 	public Optional<DynamicReport> getReport(Secs2 reportId);
 	
 	/**
-	 * Add Event-Report-Link.<br />
+	 * Add Event-Report-Link.
 	 * Use for S2F35
 	 * 
 	 * @param ceid the Collection Event ID
@@ -233,8 +233,8 @@ public interface DynamicEventReportConfig {
 	 * S2F33, Delete All Define-Report.
 	 * 
 	 * <p>
-	 * DATA-ID is AutoNumber.<br />
-	 * blocking-method.<br />
+	 * DATA-ID is AutoNumber.
+	 * blocking-method.
 	 * </p>
 	 * 
 	 * @return DRACK
@@ -255,8 +255,8 @@ public interface DynamicEventReportConfig {
 	 * S2F33, Define Report.
 	 * 
 	 * <p>
-	 * DATA-ID is AutoNumber.<br />
-	 * blocking-method<br />
+	 * DATA-ID is AutoNumber.
+	 * blocking-method
 	 * </p>
 	 * 
 	 * @return DRACK
@@ -277,8 +277,8 @@ public interface DynamicEventReportConfig {
 	 * S2F35, Link Collection Event Report.
 	 * 
 	 * <p>
-	 * DATA-ID is AutoNumber.<br />
-	 * blocking-method<br />
+	 * DATA-ID is AutoNumber.
+	 * blocking-method
 	 * </p>
 	 * 
 	 * @return LRACK
@@ -382,10 +382,10 @@ public interface DynamicEventReportConfig {
 	 * S6F15, Event Report Request.
 	 * 
 	 * <p>
-	 * Parameter "alias" is setted in #addEnableCollectionEvent<br />
-	 * Seek in enable-collection-events by alias.<br />
-	 * blocking-method.<br />
-	 * If alias not found, throw AliasNotFoundDynamicEventReportException.<br />
+	 * Parameter "alias" is setted in #addEnableCollectionEvent
+	 * Seek in enable-collection-events by alias.
+	 * blocking-method.
+	 * If alias not found, throw AliasNotFoundDynamicEventReportException.
 	 * </p>
 	 * 
 	 * @param alias the alias name
@@ -427,9 +427,9 @@ public interface DynamicEventReportConfig {
 	 * S6F17, Annotated Event Report Request.
 	 * 
 	 * <p>
-	 * Parameter "alias" is setted in #addEnableCollectionEvent<br />
-	 * Seek in enable-collection-events by alias.<br />
-	 * blocking-method.<br />
+	 * Parameter "alias" is setted in #addEnableCollectionEvent
+	 * Seek in enable-collection-events by alias.
+	 * blocking-method.
 	 * If alias not found, throw AliasNotFoundDynamicEventReportException.
 	 * </p>
 	 * 
@@ -472,10 +472,10 @@ public interface DynamicEventReportConfig {
 	 * S6F19, Individual Report Request.
 	 * 
 	 * <p>
-	 * Parameter "alias" is setted in #addDefineReport<br />
-	 * Seek in define-reports by alias.<br />
-	 * blocking-method.<br />
-	 * If alias not found, throw AliasNotFoundDynamicEventReportException.<br />
+	 * Parameter "alias" is setted in #addDefineReport
+	 * Seek in define-reports by alias.
+	 * blocking-method.
+	 * If alias not found, throw AliasNotFoundDynamicEventReportException.
 	 * </p>
 	 * 
 	 * @param alias the alias name
@@ -517,10 +517,10 @@ public interface DynamicEventReportConfig {
 	 * S6F21, Annotated Individual Report Request.
 	 * 
 	 * <p>
-	 * Parameter "alias" is setted in #addDefineReport<br />
-	 * Seek in define-reports by alias.<br />
-	 * blocking-method.<br />
-	 * If alias not found, throw AliasNotFoundDynamicEventReportException.<br />
+	 * Parameter "alias" is setted in #addDefineReport
+	 * Seek in define-reports by alias.
+	 * blocking-method.
+	 * If alias not found, throw AliasNotFoundDynamicEventReportException.
 	 * </p>
 	 * 
 	 * @param alias the alias name

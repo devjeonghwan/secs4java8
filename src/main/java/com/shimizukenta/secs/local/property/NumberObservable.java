@@ -629,8 +629,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this value == observable value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -644,8 +644,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -662,8 +662,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -679,8 +679,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -694,8 +694,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -712,8 +712,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -729,8 +729,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -744,8 +744,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -762,8 +762,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -779,8 +779,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value <= observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -794,8 +794,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value <= observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -812,8 +812,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value <= observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -829,8 +829,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value > observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -844,8 +844,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value > observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -862,8 +862,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value > observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -879,8 +879,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value >= observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -894,8 +894,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value >= observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -912,8 +912,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value >= observable.value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param observer the NumberObserver
@@ -931,8 +931,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -946,8 +946,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -961,8 +961,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -976,8 +976,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -991,8 +991,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1009,8 +1009,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1027,8 +1027,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1045,8 +1045,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1063,8 +1063,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1080,8 +1080,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1097,8 +1097,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1114,8 +1114,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value == value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1131,8 +1131,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1146,8 +1146,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1161,8 +1161,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1176,8 +1176,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1191,8 +1191,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1209,8 +1209,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1227,8 +1227,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1245,8 +1245,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1263,8 +1263,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1280,8 +1280,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1297,8 +1297,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1314,8 +1314,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value != value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1331,8 +1331,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1346,8 +1346,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1361,8 +1361,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1376,8 +1376,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1391,8 +1391,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1409,8 +1409,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1427,8 +1427,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1445,8 +1445,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1463,8 +1463,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1480,8 +1480,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1497,8 +1497,8 @@ public interface NumberObservable<T extends Number> extends Observable<T> {
 v	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1514,8 +1514,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value < value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1531,8 +1531,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1546,8 +1546,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1561,8 +1561,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1576,8 +1576,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1591,8 +1591,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1609,8 +1609,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1627,8 +1627,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1645,8 +1645,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1663,8 +1663,8 @@ v	 * Waiting until {@code this.value < value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value s int
@@ -1680,8 +1680,8 @@ v	 * Waiting until {@code this.value < value}.
 v	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1697,8 +1697,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1714,8 +1714,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value <= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1731,8 +1731,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1746,8 +1746,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1761,8 +1761,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1776,8 +1776,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1791,8 +1791,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1809,8 +1809,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1827,8 +1827,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1845,8 +1845,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1863,8 +1863,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1880,8 +1880,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1897,8 +1897,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1914,8 +1914,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1931,8 +1931,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -1946,8 +1946,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -1961,8 +1961,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -1976,8 +1976,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -1991,8 +1991,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -2009,8 +2009,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -2027,8 +2027,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -2045,8 +2045,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -2063,8 +2063,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the int value
@@ -2080,8 +2080,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the long value
@@ -2097,8 +2097,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the float value
@@ -2114,8 +2114,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= value}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param value the double value
@@ -2133,8 +2133,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value == 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -2147,8 +2147,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value == 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -2164,8 +2164,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value == 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -2180,8 +2180,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value != 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -2194,8 +2194,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value != 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -2211,8 +2211,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value != 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -2227,8 +2227,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -2241,8 +2241,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -2258,8 +2258,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value < 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -2274,8 +2274,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -2288,8 +2288,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -2305,8 +2305,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value <= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -2321,8 +2321,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -2335,8 +2335,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -2352,8 +2352,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value > 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty
@@ -2368,8 +2368,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @throws InterruptedException if interrupted while waiting
@@ -2382,8 +2382,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -2399,8 +2399,8 @@ v	 * Waiting until {@code this.value <= value}.
 	 * Waiting until {@code this.value >= 0}.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, pass through immediately.
 	 * </p>
 	 * 
 	 * @param p the TimeoutProperty

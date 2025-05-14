@@ -47,7 +47,7 @@ public class StringUtils {
 	 * Returns Unmodifiable Empty StrigProperty.
 	 * 
 	 * <p>
-	 * This instance is Singleton and immutable.<br />
+	 * This instance is Singleton and immutable.
 	 * </p>
 	 * 
 	 * @return Unmodifiable Empty StrigProperty
@@ -255,8 +255,8 @@ public class StringUtils {
 	 * Waiting until condition is true, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param i the PredicateCompution
@@ -280,8 +280,8 @@ public class StringUtils {
 	 * Waiting until condition is true, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param i the PredicateCompution
@@ -310,8 +310,8 @@ public class StringUtils {
 	 * Waiting until condition is true, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, return last value immediately.
 	 * </p>
 	 * 
 	 * @param i the PredicateCompution
@@ -338,8 +338,8 @@ public class StringUtils {
 	 * Waiting until condition is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, pass through immediately.
 	 * </p>
 	 * 
 	 * @param i the BiPredicateCompution
@@ -365,8 +365,8 @@ public class StringUtils {
 	 * Waiting until condition is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, pass through immediately.
 	 * </p>
 	 * 
 	 * @param i the BiPredicateCompution
@@ -397,8 +397,8 @@ public class StringUtils {
 	 * Waiting until condition is true.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already value is contentEquals, pass through immediately.<br />
+	 * This is blocking method.
+	 * If already value is contentEquals, pass through immediately.
 	 * </p>
 	 * 
 	 * @param i the BiPredicateCompution

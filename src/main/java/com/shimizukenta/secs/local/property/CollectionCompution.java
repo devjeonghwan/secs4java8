@@ -7,7 +7,7 @@ import java.util.Collection;
  * Collection value Compution, includes Collection-methods, Observer.
  * 
  * <p>
- * Unsupport Collection-methods to change value.<br />
+ * Unsupport Collection-methods to change value.
  * </p>
  * 
  * @author kenta-shimizu

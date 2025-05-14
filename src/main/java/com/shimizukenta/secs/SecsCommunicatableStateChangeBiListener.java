@@ -14,8 +14,8 @@ public interface SecsCommunicatableStateChangeBiListener extends EventListener {
 	 * SECS-Communicate-State Changed.
 	 * 
 	 * <p>
-	 * Blocking-method.<br />
-	 * pass through quickly.<br />
+	 * Blocking-method.
+	 * pass through quickly.
 	 * </p>
 	 * 
 	 * @param communicatable true if state is communicatable

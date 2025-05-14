@@ -108,8 +108,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (condtion == this.booleanValue())}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param condition is boolean.
@@ -127,8 +127,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (condtion == this.booleanValue())}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param condition is boolean.
@@ -149,8 +149,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (condtion == this.booleanValue())}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param condition is boolean.
@@ -170,8 +170,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (this.booleanValue() == true)}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @return last value
@@ -185,8 +185,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (this.booleanValue() == true)}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -203,8 +203,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (this.booleanValue() == true)}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param p is TimeoutProperty
@@ -220,8 +220,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (this.booleanValue() == false)}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @return last value
@@ -235,8 +235,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (this.booleanValue() == false)}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param timeout the maximum time to wait
@@ -253,8 +253,8 @@ public abstract class AbstractPredicateCompution<T> extends AbstractBooleanCompu
 	 * Waiting until {@code (this.booleanValue() == false)}, and return last value.
 	 * 
 	 * <p>
-	 * This is blocking method.<br />
-	 * If already condition is true, return last value immediately.<br />
+	 * This is blocking method.
+	 * If already condition is true, return last value immediately.
 	 * </p>
 	 * 
 	 * @param p is TimeoutProperty
